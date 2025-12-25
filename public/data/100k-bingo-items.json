@@ -1,0 +1,98 @@
+[
+    {
+        "name": "10 deaths in a run",
+        "desc": "Couri dies 10 or more times in a single run"
+    },
+    {
+        "name": "100+ gravel for flint",
+        "desc": "Couri mines 100 or more gravel before getting any flint"
+    },
+    {
+        "name": "2+ hour run",
+        "desc": "Takes 2 hours or longer for Couri to complete a single run"
+    },
+    {
+        "name": "3000+ block blind",
+        "desc": "First portal exiting the nether is 3000 blocks or more away from the nearest stronghold"
+    },
+    {
+        "name": "7+ sub 20s in a row",
+        "desc": "Couri completes 7 or more consecutive runs in under 20 minutes each"
+    },
+    {
+        "name": "8+ eye portal",
+        "desc": "Couri finds an end portal that generates with 8 or more eyes"
+    },
+    {
+        "name": "Blind outside all rings",
+        "desc": "Couri blinds from the nether at coordinates that are farther out than the outer edge of the farthest stronghold ring"
+    },
+    {
+        "name": "Couri fights a wither",
+        "desc": "Couri spawns and fights a wither during a run"
+    },
+    {
+        "name": "Diamond pick breaks",
+        "desc": "Couri breaks a diamond pickaxe"
+    },
+    {
+        "name": "Dying to berry bush",
+        "desc": "Couri unintentionally dies to a sweet berry bush"
+    },
+    {
+        "name": "Dying to the void",
+        "desc": "Couri unintentionally falls in the void and dies"
+    },
+    {
+        "name": "Fountain bug",
+        "desc": "Couri encounters a seed that has a bugged end fountain, making it impossible to complete the seed"
+    },
+    {
+        "name": "Full netherite",
+        "desc": "Couri obtains a full set of netherite armor in a run"
+    },
+    {
+        "name": "Have to punch the dragon to death",
+        "desc": "Couri has to punch the ender dragon to kill it because he doesnt have any other ways to kill it."
+    },
+    {
+        "name": "Mansion spawn",
+        "desc": "Couri spawns on or right next to a mansion"
+    },
+    {
+        "name": "Portal room blind",
+        "desc": "Couri blinds out of the nether and ends up in the portal room"
+    },
+    {
+        "name": "Segmented run",
+        "desc": "Couri has to end stream mid run and continue it the next stream"
+    },
+    {
+        "name": "Spawnerless fort",
+        "desc": "Couri finds a nether fortress that does not have any blaze spawners"
+    },
+    {
+        "name": "Stronghold first run",
+        "desc": "Couri has a run where he finds a stronghold before entering the nether"
+    },
+    {
+        "name": "Sub 10",
+        "desc": "Couri completes a run in under 10 minutes"
+    },
+    {
+        "name": "Sub 15 pred",
+        "desc": "The completion time prediction in Couri's stream whether he completes the run in under 15 minutes"
+    },
+    {
+        "name": "Sub 20 recent version run",
+        "desc": "Couri completes a recent version run in under 20 minutes"
+    },
+    {
+        "name": "Three intersecting nether structures",
+        "desc": "Couri finds three nether structures that are all intersecting"
+    },
+    {
+        "name": "Underground spawn",
+        "desc": "Couri spawns into a world underground (or suffocating)"
+    }
+]
