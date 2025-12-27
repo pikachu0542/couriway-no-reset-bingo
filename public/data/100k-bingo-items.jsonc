@@ -1,0 +1,205 @@
+// Items are listed in the order that they are shown in the bingo card
+[
+    {
+        "name": "Dying to the void (not on purpose)",
+        "desc": "Couri accidentally dies in the void",
+        "isMarked": true,
+        "runMarked": 2896,
+        "row": 1,
+        "col": 1
+    },
+    {
+        "name": "Get all three corrupted portal variants",
+        "desc": "Throught the span of the challenge, encounter at least 1 end portal that is corrupted by each of: a water pool, a lava pool, and a ruined portal",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 1,
+        "col": 2
+    },
+    {
+        "name": "Dying to a berry bush (not on purpose)",
+        "desc": "Couri accidentally dies to a berry bush",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 1,
+        "col": 3
+    },
+    {
+        "name": "Sub 20 recent version run",
+        "desc": "Complete a recent version run in under 20 minutes",
+        "isMarked": true,
+        "runMarked": 7400,
+        "row": 1,
+        "col": 4
+    },
+    {
+        "name": "Couri fights a wither",
+        "desc": "Couri summons and fights a wither in a run",
+        "isMarked": true,
+        "runMarked": 5835,
+        "row": 1,
+        "col": 5
+    },
+    {
+        "name": "Stronghold first run",
+        "desc": "Couri finds the stronghold before entering the nether",
+        "isMarked": true,
+        "runMarked": 7383,
+        "row": 2,
+        "col": 1
+    },
+    {
+        "name": "Mansion spawn",
+        "desc": "Couri spawns next to a woodland mansion",
+        "isMarked": true,
+        "runMarked": 7000,
+        "row": 2,
+        "col": 2
+    },
+    {
+        "name": "Couri has to end stream mid run",
+        "desc": "Couri ends stream in the middle of a run and continues it at a later point",
+        "isMarked": true,
+        "runMarked": 3056,
+        "row": 2,
+        "col": 3
+    },
+    {
+        "name": "2+ hour run",
+        "desc": "Couri has a run that takes 2 hours or longer",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 2,
+        "col": 4
+    },
+    {
+        "name": "No spawner in the fort",
+        "desc": "Couri finds a fortress that doesnt have any blaze spawners",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 2,
+        "col": 5
+    },
+    {
+        "name": "Three intersecting nether structures",
+        "desc": "Couri finds 3 nether structrures that are all intersecting",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 3,
+        "col": 1
+    },
+    {
+        "name": "Sub 10",
+        "desc": "Couri completes a run in under 10 minutes",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 3,
+        "col": 2
+    },
+    {
+        "name": "Finish 100K",
+        "desc": "Couri completes his 100,000th no reset speedrun",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 3,
+        "col": 3
+    },
+    {
+        "name": "8+ eye",
+        "desc": "Couri finds an end portal that generated with 8 or more eyes",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 3,
+        "col": 4
+    },
+    {
+        "name": "Fountain bug = unbeatable seed",
+        "desc": "Couri rolls a seed with an unbeatable end due to a bug causing the exit portal to not generate",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 3,
+        "col": 5
+    },
+    {
+        "name": "3000+ blind distance",
+        "desc": "Couri's blind portal is at least 3,000 blocks away from the nearest stronghold",
+        "isMarked": true,
+        "runMarked": 7586,
+        "row": 4,
+        "col": 1
+    },
+    {
+        "name": "100 gravel needed for flint",
+        "desc": "Couri has to mine 100 or more gravel to get a single piece of flint",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 4,
+        "col": 2
+    },
+    {
+        "name": "Spawn underground or suffocating",
+        "desc": "Couriway spawns fully underground or suffocating",
+        "isMarked": true,
+        "runMarked": 3794,
+        "row": 4,
+        "col": 3
+    },
+    {
+        "name": "7 sub 20s in a row",
+        "desc": "Couri completes 7 consecutive runs each in under 20 minutes",
+        "isMarked": true,
+        "runMarked": 5413,
+        "row": 4,
+        "col": 4
+    },
+    {
+        "name": "Portal room blind",
+        "desc": "Couri's blind portal spawns him in the portal room",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 4,
+        "col": 5
+    },
+    {
+        "name": "Sub 15 pred",
+        "desc": "The prediction run in chat at the start of a run is for if Couri will complete the run in under 15 minutes",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 5,
+        "col": 1
+    },
+    {
+        "name": "Full netherite",
+        "desc": "Couri obtains a full set of netherite armor in a run",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 5,
+        "col": 2
+    },
+    {
+        "name": "10 deaths in one run",
+        "desc": "Couri dies 10 times in a single run",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 5,
+        "col": 3
+    },
+    {
+        "name": "Diamond pick breaks",
+        "desc": "Couri breaks a diamond pick in a run",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 5,
+        "col": 4
+    },
+    {
+        "name": "Blind outside all rings",
+        "desc": "Couri travels so far that he builds his blind portal beyond the outer edge of the last stronghold ring",
+        "isMarked": false,
+        "runMarked": null,
+        "row": 5,
+        "col": 5
+    }
+
+
+]

@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './Navbar'
 import BingoCard from './BingoCard'
+import ChallengeCard from './ChallengeCard'
 
 function App() {
   return (
