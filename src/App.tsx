@@ -16,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<BingoCard />} />
             <Route path="/100k" element={<ChallengeCard />} />
+            <Route path="/data/"/>
       </Routes>
       </BrowserRouter>
 

@@ -3,7 +3,6 @@ import { RandomRange } from "./util";
 import BingoRow from "./BingoRow";
 import type { BingoSquare } from "./types/BingoSquare";
 
-
 function BingoCard() {
     const [nrsItems, setNrsItems] = useState<string[]>([]);
     const [card, setCard] = useState<BingoSquare[][]>([]);
