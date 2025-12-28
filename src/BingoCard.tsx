@@ -3,6 +3,8 @@ import { RandomRange } from "./util";
 import BingoRow from "./BingoRow";
 import type { BingoSquare } from "./types/BingoSquare";
 
+const BASE_URL = import.meta.env.BASE_URL
+
 function BingoCard() {
     const [nrsItems, setNrsItems] = useState<string[]>([]);
     const [card, setCard] = useState<BingoSquare[][]>([]);
@@ -14,7 +16,7 @@ function BingoCard() {
     
     // Gets all the options for squares from JSON file
     useEffect(() => {
-        fetch("/data/nrs-bingo-items.json")
+        fetch(`${BASE_URL}/data/nrs-bingo-items.json`)
         .then(res => res.json())
         .then(items => setNrsItems(items))
         .catch(console.error);

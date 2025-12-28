@@ -4,6 +4,8 @@ import BingoCard from './BingoCard'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ChallengeCard from './ChallengeCard'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 function App() {
   return (
     <>
@@ -14,9 +16,8 @@ function App() {
             </div>
 
           <Routes>
-            <Route path="/" element={<BingoCard />} />
-            <Route path="/100k" element={<ChallengeCard />} />
-            <Route path="/data/"/>
+            <Route path={`${BASE_URL}/`} element={<BingoCard />} />
+            <Route path={`${BASE_URL}/100k`} element={<ChallengeCard />} />
       </Routes>
       </BrowserRouter>
 
