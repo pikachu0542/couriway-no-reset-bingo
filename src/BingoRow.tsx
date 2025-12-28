@@ -19,8 +19,7 @@ function BingoRow({ rowIndex, rowContents, onToggle, readOnly }: Props) {
                     ? () => onToggle(rowIndex, colIndex)
                     : undefined
                   }
-          style={{justifyContent: "center", alignContent: "center"}}
-          className={`p-4 border aspect-square w-36 h-36 text-center text-purple-700
+          className={`p-4 border flex justify-center items-center aspect-square w-36 h-36 text-center text-purple-700
             ${square.marked ? "bg-green-400" : "bg-yellow-200"}
             ${readOnly ? "cursor-default" : "cursor-pointer"}`
           }
