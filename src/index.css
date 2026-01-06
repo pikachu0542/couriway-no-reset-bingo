@@ -1,11 +1,6 @@
-:root {
-  --color-couri-sleeve: #3a1b51;
-  --color-couri-ceown: #bb934f;
-  --color-couri-crown-2: #a86c39;
-  --color-couri-pink: #8d3f72;
-  --color-couri-med-purple: #4a3255;
-  --color-couri-shoe: #504767;
+@import "tailwindcss";
 
+:root {
   background-color: rgb(48, 33, 61);
   color: goldenrod;
 }
