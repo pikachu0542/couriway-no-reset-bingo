@@ -17,7 +17,7 @@ function BingoRow({ rowIndex, rowContents, onToggle, readOnly }: Props) {
         <div key={colIndex}
           onClick={!readOnly && onToggle ? () => onToggle(rowIndex, colIndex) : undefined}
           className={`group relative p-4 border flex justify-center items-center aspect-square w-36 h-36 text-center text-purple-700
-            ${square.marked ? "bg-green-400" : "bg-yellow-200"}
+            ${square.marked ? ("bg-green-400 hover:bg-green-600") : ("bg-yellow-200 hover:bg-yellow-300")}
             ${readOnly ? "cursor-default" : "cursor-pointer"}`}
         >
           <div className="flex flex-col items-center">

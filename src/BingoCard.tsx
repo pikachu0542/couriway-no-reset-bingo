@@ -71,10 +71,10 @@ function BingoCard() {
             </div>
 
             <div className="flex justify-center mb-4 gap-5">
-                <button className="px-4 py-2 bg-red-500 text-white rounded" onClick={resetCard}>
+                <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 hover:shadow-red-600 hover:shadow-sm active:bg-red-700" onClick={resetCard}>
                     Reset Card
                 </button>
-                <button className="px-4 py-2 bg-green-500 text-black rounded" onClick={generateNewCard}>
+                <button className="px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 hover:shadow-green-600 hover:shadow-sm active:bg-green-700" onClick={generateNewCard}>
                     New Card
                 </button>
             </div>
