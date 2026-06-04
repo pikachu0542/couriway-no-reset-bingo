@@ -7,17 +7,17 @@ import { useState } from "react";
 
 const BOARD_SIZE: number = 5;
 
-function randomizeBoard() {
+function randomizeBoard(): string[][] {
     let board: string[][] = [];
     
     // Make a copy of the goals list. Want to be able to remove chosen goals from it to prevent duplicates, since other methods,
     // such as generating a number and checking if it was already chosen, can be very slow, or even theoretically could just loop infinitely
     let goalArr: string[] = [...goals];
 
-    for (let i = 0; i < BOARD_SIZE; i++) {
+    for (let i: number = 0; i < BOARD_SIZE; i++) {
         let row: string[] = [];
         
-        for (let j = 0; j < BOARD_SIZE; j++) {
+        for (let j: number = 0; j < BOARD_SIZE; j++) {
             let goalIndex: number = RandomRange(0, goalArr.length);
 
             row.push(goalArr[goalIndex]);
@@ -32,8 +32,9 @@ function randomizeBoard() {
 function initBoardSquares(): boolean[][] {
     const marked: boolean[][] = [];
 
-    for (let i = 0; i < BOARD_SIZE; i++) {
+    for (let i: number = 0; i < BOARD_SIZE; i++) {
         const row: boolean[] = [];
+        
         for (let j = 0; j < BOARD_SIZE; j++) {
             row.push(false);
         }
@@ -56,6 +57,7 @@ export default function Bingo() {
     function handleToggleMarked(row: number, col: number): void {
         setMarkedSquares((oldBoard) => {
             const updated = oldBoard.map((item) => [...item]);
+
             updated[row][col] = !updated[row][col];
             return updated;
         });

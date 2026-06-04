@@ -3,15 +3,15 @@ import challengeGoals from "../../public/data/100k-bingo-items.json";
 
 const BOARD_SIZE: number = 5;
 
-function buildBoard() {
+function buildBoard(): ChallengeSquareProps[][] {
     let boardData: ChallengeSquareProps[][] = [];
 
     // Loop for each row, and add items one row at a time
-    for (let i = 0; i < BOARD_SIZE; i++) {
+    for (let i: number = 0; i < BOARD_SIZE; i++) {
         let boardRow: ChallengeSquareProps[] = [];
 
         // Loop through each item in the row
-        for (let j = 0; j < BOARD_SIZE; j++) {
+        for (let j: number = 0; j < BOARD_SIZE; j++) {
 
             let currGoalIndex: number = (i * BOARD_SIZE) + j;
 
@@ -63,5 +63,4 @@ export default function ChallengeBingo() {
             </div>
         </div>
     )
-
 }
