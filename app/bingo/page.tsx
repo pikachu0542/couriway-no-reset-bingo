@@ -80,8 +80,8 @@ export default function Bingo() {
     }
 
     return (
-        <div className="">
-            <div id="controls-btn-row" className="flex space-x-12 w-full justify-center mt-5">
+        <div className="bg-linear-to-br from-purple-700 to-purple-900 flex justify-center space-x-10">
+            <div id="controls-btn-col" className="flex flex-col justify-center space-y-10 ">
                 <button 
                     onClick={handleResetBoard}
                     className="px-5 py-3 bg-green-400 text-black rounded-md text-lg"
@@ -95,22 +95,22 @@ export default function Bingo() {
                     Clear Card
                 </button>
             </div>
-            <div className="flex justify-center mt-5 mb-10">
-                {board.map((row: string[], rowIndex: number) => (
-                    <div key={`${row}-${rowIndex}`}>
-                        {row.map((task: string, colIndex: number) => (
-                            <BingoSquare 
-                                key={`${rowIndex}-${colIndex}`} 
-                                goal={task}
-                                marked={markedSquares[rowIndex][colIndex]}
-                                rowIndex={rowIndex}
-                                colIndex={colIndex}
-                                toggleMarked={handleToggleMarked}
-                            />
-                        ))}
-                    </div>
-                ))}
+                <div className="flex justify-center align-middle my-15">
+                    {board.map((row: string[], rowIndex: number) => (
+                        <div key={`${row}-${rowIndex}`}>
+                            {row.map((task: string, colIndex: number) => (
+                                <BingoSquare 
+                                    key={`${rowIndex}-${colIndex}`} 
+                                    goal={task}
+                                    marked={markedSquares[rowIndex][colIndex]}
+                                    rowIndex={rowIndex}
+                                    colIndex={colIndex}
+                                    toggleMarked={handleToggleMarked}
+                                />
+                            ))}
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
     )
 }
