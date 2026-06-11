@@ -17,8 +17,10 @@ export default function BingoSquare(props: BingoSquareProps) {
         setMarked(props.marked);
     }, [props.marked]);
 
-    const bgColor: string = isMarked ? `bg-green-600` : `bg-black-100`;
-    const bgHoverColor: string = isMarked ? `bg-green-800` : `bg-purple-300`;
+    const bgColor: string = props.marked ? `bg-amber-400` : `bg-black-100`;
+    const bgHoverColor: string = props.marked ? `hover:bg-amber-500` : `hover:bg-purple-950`;
+
+    const fontColor: string = props.marked ? `text-black` : `text-white`;
 
     function toggleMarked(): void {
         setMarked((prev) => !prev);
@@ -29,7 +31,7 @@ export default function BingoSquare(props: BingoSquareProps) {
 
     return (
         <>
-            <div className={`flex ${bgColor} p-5 text-center justify-center align-middle items-center aspect-square w-40 h-auto border-2 hover:${bgHoverColor}`}
+            <div className={`flex justify-center align-middle items-center ${bgColor} ${bgHoverColor} text-lg ${fontColor} font-extrabold text-center border-3 border-white p-3 aspect-square w-40 h-auto`}
                 key={`${props.rowIndex}-${props.colIndex}`}
                 onClick={toggleMarked}
             >

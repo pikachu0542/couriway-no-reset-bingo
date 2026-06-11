@@ -42,9 +42,9 @@ export default function ChallengeBingo() {
     const board = buildBoard();
 
     return (
-        <div className="">
+        <div className="bg-linear-to-br from-purple-700 to-purple-900">
             <h1 className="text-5xl font-extrabold text-yellow-400 text-center mt-5 mb-5">100k Bingo</h1>
-            <div className="flex flex-col items-center align-middle justify-center mt-5">
+            <div className="flex flex-col items-center align-middle justify-center my-5">
                 {board.map((row: ChallengeSquareProps[], rowIndex: number) => (
                     <div key={`${row}-${rowIndex}`} className="flex">
                         {row.map((square: ChallengeSquareProps, colIndex: number) => (

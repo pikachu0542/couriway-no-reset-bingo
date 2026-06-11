@@ -9,19 +9,21 @@ export interface ChallengeSquareProps {
 
 export default function ChallengeSquare(props: ChallengeSquareProps) {
 
-    const bgColor: string = props.marked ? `bg-green-600` : `bg-black-100`;
-    const bgHoverColor: string = props.marked ? `bg-green-800` : `bg-purple-300`;
+    const bgColor: string = props.marked ? `bg-amber-400` : `bg-black-100`;
+    const bgHoverColor: string = props.marked ? `hover:bg-amber-500` : `hover:bg-purple-950`;
+
+    const fontColor: string = props.marked ? `text-black` : `text-white`;
 
     return (
         <>
             <div 
-                className={`flex flex-col ${bgColor} p-5 text-center justify-center align-middle items-center aspect-square w-40 h-auto border-2 hover:${bgHoverColor}`}
+                className={`flex flex-col justify-center align-middle items-center ${bgColor} ${fontColor} ${bgHoverColor} font-extrabold text-center aspect-square w-40 h-auto p-4 border-2 border-white`}
                 key={`${props.row}-${props.col}`}
                 title={props.desc}
             >
                 <h3 className="text-lg">{props.goal}</h3>
-                <br/>
-                <div className="text-lg font-extrabold text-amber-400">{props.marked ? <p>Run {props.runMarked}</p> : <></>}</div>
+                <br />
+                <div className="text-lg font-extrabold text-green-900">{props.marked ? <p>Run {props.runMarked}</p> : <></>}</div>
             </div>
         </>
     )
